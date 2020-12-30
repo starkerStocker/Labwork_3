@@ -61,6 +61,16 @@
       <Point X="207" Y="494" />
       <Point X="207" Y="494" />
     </Link>
+    <Link From="8I64xxxxxxx.00x-1" To="X20BT9100" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="672" Y="460" />
+      <Point X="672" Y="460" />
+      <Point X="648" Y="460" />
+      <Point X="635" Y="460" />
+      <Point X="635" Y="449" />
+      <Point X="584" Y="449" />
+      <Point X="577" Y="449" />
+      <Point X="577" Y="449" />
+    </Link>
   </Links>
   <InfoElements />
 </BR.AS.HardwareTopology>

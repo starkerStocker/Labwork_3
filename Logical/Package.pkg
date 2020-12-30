@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.2.5.388?>
-<Package xmlns="http://br-automation.co.at/AS/Package">
+<?AutomationStudio Version=4.5.2.102?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File" Description="Global data types">Global.typ</Object>
     <Object Type="File" Description="Global variables">Global.var</Object>
     <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Library" Language="binary" Description="ACOPOS Simulation">Acp10sim</Object>
+    <Object Type="Library" Language="binary" Description="PLCopen Motion Control function blocks">Acp10_MC</Object>
+    <Object Type="Library" Language="binary" Description="The BRSystem library provides the user with a number of system functions for e.g. handling permanent memory, accessing exception information, etc.">brsystem</Object>
+    <Object Type="Library" Language="binary" Description="Smart Device Controller">Acp10sdc</Object>
+    <Object Type="Library" Language="binary" Description="The AsIOTime library is used to generate time stamps based on system time of the I/O system.">AsIOTime</Object>
+    <Object Type="Program" Language="IEC">ncsdcctrl</Object>
+    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
+    <Object Type="Package" Description="gAxis01obj">gAxis01obj</Object>
+    <Object Type="Program" Language="ANSIC">SDCAxisCtrlX</Object>
   </Objects>
 </Package>
